@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     background-color: white;
@@ -13,7 +14,7 @@ body {
     background-color: skyblue;
     padding: 50px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px white(0, 0, 0, 0.5);
     text-align: center;
     width: 80%;
     max-width: 1000px;
@@ -30,7 +31,6 @@ p {
     font-size: 23px;
 
 }
-
 p1
  {
     color: white;
@@ -41,9 +41,6 @@ p1 a {
     text-decoration: none;
 }
 
-.p1 a:hover {
-        text-decoration: underline;
-}
 .upload-section {
     margin: 20px 0;
     position: relative;
@@ -51,7 +48,7 @@ p1 a {
 
 #fileInput {
     width: 100%;
-    padding: 10px;
+    padding: 20px;
     border: 2px dashed #ccc;
     border-radius: 10px;
     opacity: 0;
@@ -59,6 +56,7 @@ p1 a {
     top: 0;
     left: 0;
     cursor: pointer;
+
 }
 
 .upload-section label {
@@ -68,18 +66,21 @@ p1 a {
     border-radius: 10px;
     background-color: #f9f9f9;
     cursor: pointer;
+    font-size: 30px;
+    height:90px;
+   
 }
 
 #fileName {
     display: block;
     margin-top: 10px;
-    color: #999;
+    color: black;
 }
 
 .save-section {
-    margin: 20px 0;
+    margin: 30px;
     color: white;
-
+    font-size: 20px;
 }
 
 #convertBtn {
@@ -89,6 +90,7 @@ p1 a {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 20px;
 }
 
 #convertBtn:hover {
@@ -105,6 +107,3 @@ p1 a {
     text-decoration: none;
 }
 
-.terms a:hover {
-    text-decoration: underline;
-}
