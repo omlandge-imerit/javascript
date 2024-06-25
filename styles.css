@@ -31,18 +31,10 @@ p {
     font-size: 23px;
 
 }
-p1
- {
-    color: white;
-    font-size: 20px;
-}
-p1 a {  
-    color: black;
-    text-decoration: none;
-}
+
 
 .upload-section {
-    margin: 20px 0;
+    margin: 40px 0;
     position: relative;
 }
 
